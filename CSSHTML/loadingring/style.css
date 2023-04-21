@@ -39,7 +39,7 @@ body{
     }
     50%{
         transform: rotate(180deg);
-        box-shadow: 1px 5px 2px #fbff00;
+        box-shadow: 1px 5px 2px #ff0000;
     }
     100%{
         transform: rotate(360deg);

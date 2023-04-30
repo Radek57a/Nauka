@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .galeri{
+        display: flex;
+        height: 20rem;
+        gap: 1rem
+    }
+    .galeri > div{
+        flex:1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, .1.4); 
+    }
+    .galeri > div:hover{
+        flex: 5;
+    }
+
+    body{
+        background-color: #ffbf6b;
+        max-width: 900px;
+        margin: 1rem auto;
+    }
+</style>
+<body>
+    <div class="galeri">
+        <div style="background-image: url('https://picsum.photos/id/3/1000/500');"></div>
+        <div style="background-image: url('https://picsum.photos/id/4/1000/500');"></div>
+        <div style="background-image: url('https://picsum.photos/id/5/1000/500');"></div>
+        <div style="background-image: url('https://picsum.photos/id/6/1000/500');"></div>
+        <div style="background-image: url('https://picsum.photos/id/7/1000/500');"></div>
+      </div>
+</body>
+</html>
